@@ -1,0 +1,146 @@
+/*清除元素默认的内外边距  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*让所有斜体 不倾斜*/
+
+em,
+i {
+    font-style: normal;
+}
+
+
+/*去掉列表前面的小点*/
+
+li {
+    list-style: none;
+}
+
+
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+
+img {
+    border: 0;
+    /*ie6*/
+    vertical-align: middle;
+}
+
+
+/*让button 按钮 变成小手*/
+
+button {
+    cursor: pointer;
+}
+
+
+/*取消链接的下划线*/
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 74, 145);
+}
+
+.style_color {
+    color: rgb(0, 74, 145);
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    border: 0px;
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+
+/* ************************头部start********************** */
+
+
+/* 导航 */
+
+.GUET_header .gd-nav {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.GUET_header .gd-nav .navbar-brand img {
+    height: 40px;
+}
+
+.GUET_header .gd-nav .navbar-nav>li>a {
+    margin-left: 20px;
+}
+
+.GUET_header .gd-nav .navbar-nav>li>a:hover {
+    border-bottom: 2px solid rgb(0, 74, 145);
+    color: rgb(0, 74, 145);
+}
+
+
+/* ************************头部end********************** */
+
+
+/* *****************尾部********************* */
+
+.guet_footer {
+    background-color: rgb(0, 74, 145);
+    padding: 2rem 0;
+    color: #fff;
+}
+
+.guet_footer .logo {
+    height: 60px;
+    margin-right: 2rem;
+}
+
+@media (min-width: 578px) {
+    .guet_footer .container .logo {
+        float: left;
+    }
+}
+
+@media (max-width: 576px) {
+    .guet_footer .container {
+        text-align: center;
+    }
+    .guet_footer .container .logo {
+        padding-bottom: 1rem;
+    }
+}
+
+.go_top {
+    display: none;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background: #d4f3ef;
+    bottom: 40px;
+    right: 19px;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(0, 74, 145);
+    border-radius: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.go_top:hover {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}

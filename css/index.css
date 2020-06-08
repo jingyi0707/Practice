@@ -1,0 +1,169 @@
+/* ************************头部start********************** */
+
+
+/* 导航 */
+
+.GUET_header .gd-nav {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.GUET_header .gd-nav .navbar-brand img {
+    height: 40px;
+}
+
+.GUET_header .gd-nav .navbar-nav>li>a {
+    margin-left: 20px;
+}
+
+.GUET_header .gd-nav .navbar-nav>li>a:hover {
+    border-bottom: 2px solid rgb(0, 74, 145);
+    color: rgb(0, 74, 145);
+}
+
+
+/* ************************头部end********************** */
+
+
+/* ************************录播图start********************** */
+
+.GUET_Carousel .carousel-item img {
+    width: 100%;
+}
+
+.GUET_Carousel .carousel-item {
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+@media screen and (min-width:900px) {
+    .GUET_Carousel .carousel-item {
+        height: 510px;
+    }
+}
+
+
+/* ************************录播图end********************** */
+
+
+/* ************************桂电要闻start********************** */
+
+.GUET_news .news img {
+    width: 100%;
+    /* border: 4px solid blanchedalmond; */
+}
+
+.GUET_news .new-content>div {
+    padding: 10px;
+    background-color: blanchedalmond;
+    /* background-color: rgb(115, 201, 229); */
+}
+
+@media screen and (max-width:767px) {
+    .GUET_news .sp {
+        display: none;
+    }
+}
+
+
+/* ************************桂电要闻end********************** */
+
+
+/* ************************关于桂电start********************** */
+
+.GUET_about .item {
+    overflow: hidden;
+    background-color: rgba(0, 74, 145, 1);
+}
+
+.GUET_about .item img {
+    width: 100%;
+    opacity: 0.2;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.GUET_about .item img:hover {
+    transform: scale(2);
+}
+
+.GUET_about .item a {
+    position: relative;
+}
+
+.GUET_about .item a .logo {
+    width: 10px;
+}
+
+.GUET_about .biaoti {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+}
+
+@media screen and (max-width:767px) {
+    .GUET_about .item {
+        height: 150px;
+    }
+}
+
+@media screen and (min-width:638px) {
+    .GUET_about .item {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:958px) {
+    .GUET_about .item {
+        height: 300px;
+    }
+}
+
+
+/* ************************关于桂电end********************** */
+
+
+/******************************8 我们拥有****************** */
+
+.GUET_have .featurette p {
+    font-size: 1rem;
+}
+
+.featurette-divider {
+    margin: 80px 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+@media (min-width: 768px) {
+    .featurette-heading {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 576px) {
+    .lp {
+        margin-top: 14px;
+    }
+}
+
+.GUET_have .container .featurette .biao {
+    display: inline;
+}
+
+
+/******************************8 我们拥有****************** */
